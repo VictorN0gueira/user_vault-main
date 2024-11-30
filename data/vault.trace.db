@@ -1,0 +1,14 @@
+2024-11-29 11:27:02.278843-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found; SQL statement:
+SELECT * FROM users [42102-224]
+2024-11-29 11:32:45.601954-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found; SQL statement:
+UPDATE users
+SET password = '$2a$12$vlFPTJwNeFlP4wPE1FbdZeXymcNFi2QWLVEuO2puBCVpRWCmaU9vO'
+WHERE email = 'victor@email.com.br' [42102-224]
+2024-11-29 11:40:07.558400-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select from USER_CREATE [*]* Victor:"; SQL statement:
+select from USER_CREATE * Victor: [42000-224]
+2024-11-29 11:44:59.618095-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USER_CREATE[*]:"; SQL statement:
+SELECT * FROM USER_CREATE: [42000-224]
